@@ -23,7 +23,7 @@ describe("SAMPLE unit test",function(){
      // res.status.should.equal(200);
       // Error key should be false.
      res.body.error.should.equal(false);
-      //done();
+      done();
    
     });
   });

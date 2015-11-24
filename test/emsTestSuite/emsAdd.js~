@@ -14,7 +14,7 @@ module.exports = {
   },
   'List of Employees' : function(client,browser){
 	  client
-	  .url('http://172.27.59.210:3003/#/add')
+	  .url('http://172.27.59.112:3003/#/add')
 	  .waitForElementVisible('body', 1000)
 	  .verify.title('Employee Application')
 	.end();
